@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "simple_test_packet"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Dima Abramovich <abramovich_d@rocketdata.io>"]
 

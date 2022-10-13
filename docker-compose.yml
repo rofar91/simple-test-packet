@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  postgres:
+    image: rofar/first_test:latest
+    container_name: container_name_first
+    shm_size: '2gb'
+    restart: always
+    expose:
+      - '8080'
+    ports:
+      - '127.0.0.1:8080:8080'

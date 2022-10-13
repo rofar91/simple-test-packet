@@ -13,4 +13,4 @@ def read_root(name: Optional[str] = None):
 
 def start():
     """Launched with `poetry run start` at root level"""
-    uvicorn.run("simple_test_packet.main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("simple_test_packet.main:app", host="0.0.0.0", port=8080, reload=True)
